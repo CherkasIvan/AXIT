@@ -8,7 +8,7 @@ body {
 header {
   width: 100%;
   height: 712px;
-  background: url('/img/bg_image.png') 100% 100% no-repeat;
+  background: url('../img/bg_image.png') 100% 100% no-repeat;
   background-size: cover;
 }
 
@@ -249,7 +249,7 @@ input {
 }
 
 .icon-link {
-  background-image: url('/img/social_media_icons.png');
+  background-image: url('../img/social_media_icons.png');
   background-repeat: no-repeat;
   height: 43px;
   width: 43px;
@@ -351,7 +351,7 @@ a.rss {
 }
 
 .tabs-page_picture {
-  background-image: url('/img/tabs_city.png') ;
+  background-image: url('../img/tabs_city.png');
   background-repeat: no-repeat;
   height: 253px;
   width: 320px;
@@ -405,7 +405,7 @@ a.rss {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-image: url("/img/bulb.png");
+  background-image: url("../img/bulb.png");
   background-repeat: no-repeat;
   background-position: center center;
   border: 2px solid #FF8C2C;
@@ -416,7 +416,7 @@ a.rss {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-image: url("/img/keyboard.png");
+  background-image: url("../img/keyboard.png");
   background-repeat: no-repeat;
   background-position: center center;
   border: 2px solid #FF8C2C;
@@ -427,7 +427,7 @@ a.rss {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-image: url("/img/volt.png");
+  background-image: url("../img/volt.png");
   background-repeat: no-repeat;
   background-position: center center;
   border: 2px solid #FF8C2C;
@@ -470,7 +470,7 @@ a.rss {
   margin: 0 auto;
   height: 322px;
   text-align: center;
-  background-image: url("/img/background_city.png");
+  background-image: url("../img/background_city.png");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -499,7 +499,7 @@ a.rss {
 }
 
 .footer_icon-link {
-  background-image: url('/img/footer_navigation_logo.png');
+  background-image: url('../img/footer_navigation_logo.png');
   background-repeat: no-repeat;
   height: 24px;
   width: 22px;
