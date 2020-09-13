@@ -351,7 +351,7 @@ a.rss {
 }
 
 .tabs-page_picture {
-  background-image: url('/img/tabs_city.png');
+  background-image: url('/img/tabs_city.png') ;
   background-repeat: no-repeat;
   height: 253px;
   width: 320px;
