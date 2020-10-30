@@ -2,92 +2,343 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/media.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap" rel="stylesheet">
-    <title>Black sea</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap"
+    rel="stylesheet">
+  <title>Lesson 4</title>
 </head>
 
 <body>
-    <div class="wrap">
-        <header class="header">
-            <div class="container">
-                <h1 class="header__logo">Black Sea</h1>
-                <nav class="header__nav">
-                    <a class="header__link" href="#">Home</a>
-                    <a class="header__link" href="#">About me</a>
-                    <a class="header__link" href="#">Portfolio</a>
-                    <a class="header__link" href="#">Contact me</a>
-                </nav>
-                <div class="gamburger"></div>
-            </div>
-        </header> <!-- ./ header -->
-
-        <div class="promo">
-            <div class="container">
-                <h2 class="promo__title">We need the tonic of wildness</h2>
-                <button class="promo__btn">Read more</button>
-                <ul class="promo__list">
-                    <li class="promo__item"></li>
-                    <li class="promo__item"></li>
-                    <li class="promo__item"></li>
-                    <li class="promo__item"></li>
-                    <li class="promo__item"></li>
-                </ul>
-            </div>
-        </div> <!-- ./ promo -->
-
-        <main class="main">
-            <div class="container">
-                <h3 class="main__title">At the same time that we are earnest to explore
-                    & learn all things </h3>
-                <p class="main__text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                    unknown printer took a galley of type and scrambled it to a type specimen book.
-                </p>
-
-                <div class="main-list__icons">
-                    <div class="main-icon"></div>
-                    <div class="main-icon"></div>
-                    <div class="main-icon"></div>
-                </div>
-            </div>
-        </main> <!-- ./ main -->
-
-        <div class="testimonial">
-            <div class="testimonial__wrap">
-                <img class="testimonial__dhavan" src="../img/dhavan-photo.png" alt="ghavan">
-            </div>
-            <div class="container">
-                <blockquote class="testimonial__review">Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                    unknown printer took a galley of type and scrambled it to
-                    a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                    typesetting
-                </blockquote>
-            </div>
-        </div> <!-- ./ testimonial -->
-
-        <div class="contact">
-            <div class="container">
-                <form action="action_page.php" class="form">
-                    <input class="form__user-name" type="text" placeholder="Name">
-                    <input class="form__user-email" type="email" placeholder="Email address">
-                    <textarea class="form__user-message" cols="29" rows="8" placeholder=" Message"></textarea>
-                    <button class="form__submit" type="submit"></button>
-                </form>
-            </div>
-        </div> <!-- ./ contact -->
-
-        <footer class="footer">
-            <div class="container">
-                <span class="footer__copyright">Copyright &copy; 2012 Css Author.com</span>
-            </div>
-        </footer> <!-- ./ footer -->
-
+  <!-- navigation start -->
+  <nav class="nav">
+    <div class="container">
+      <div class="nav__block">
+        <img class="nav__block--logo" src="img/navigation_logo.png" alt="navigation logo">
+        <ul class="nav__block--links">
+          <li><a class="nav__block--link" href="#">Features</a></li>
+          <li><a class="nav__block--link" href="#">About</a></li>
+          <li><a class="nav__block--link" href="#">Awesome</a></li>
+          <li><a class="nav__block--link" href="#">Rewiews</a></li>
+          <li><a class="nav__block--link" href="#">Contact</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <!-- navigation end -->
+
+  <!-- header start -->
+  <header class="header">
+    <div class="container">
+      <!-- left side of header -->
+      <div class="header__content">
+        <div class="header__text">
+          <img class="header__text--logo" src="img/header_logo.png" alt="header logo">
+          <h2 class="header__text--title">Modern axure template for beautiful prototypes</h2>
+          <div class="header__text--line"></div>
+          <p class="header__text--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+            accumsan et viverra justo commodo.</p>
+          <a class="header__text--download-link" href="#">Download</a>
+        </div>
+        <!-- left side of header end -->
+
+        <!-- right side of header -->
+        <form action="action_page.php" class="header__form">
+          <h2 class="header__form--title">Try Your <span class="color-text">FREE</span> Trial Today</h2>
+          <label for="name"></label>
+          <input class="header__form--input" type="text" placeholder="Name" name="name" required>
+          <label for="email"></label>
+          <input class="header__form--input" type="text" placeholder="Email" name="email" required>
+          <label for="psw"></label>
+          <input class="header__form--input" type="password" placeholder="Password" name="psw" required>
+          <input class="header__form--submit" type="submit" value="Get Started">
+        </form>
+        <!-- right side of header end -->
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- social-media -->
+  <aside class="social-media">
+    <div class="container">
+      <!-- text -->
+      <div class="social-media__text">
+        <h3 class="social-media__text--title">Social Media</h3>
+        <p class="social-media__text--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Aenean euismod bibendum laoreet.</p>
+      </div>
+      <!-- text end -->
+
+      <!-- links  -->
+      <div class="social-media__links">
+        <div class="social-media__links-icons">
+          <a class="social-media__icon-link facebook" href="https://www.facebook.com/" target="_blank"></a>
+          <a class="social-media__icon-link twitter" href="https://www.twitter.com/" target="_blank"></a>
+          <a class="social-media__icon-link google" href="https://www.idontexistanymore.com/" target="_blank"></a>
+          <a class="social-media__icon-link pinterest" href="https://www.pinterest.com/" target="_blank"></a>
+          <a class="social-media__icon-link instagram" href="https://www.instagram.com/" target="_blank"></a>
+          <a class="social-media__icon-link stumbleupon" href="https://www.stumbleupon.com/" target="_blank"></a>
+          <a class="social-media__icon-link rss" href="https://rss.com/" target="_blank"></a>
+        </div>
+      </div>
+      <!-- links end -->
+    </div>
+  </aside>
+  <!-- social-media end -->
+
+  <!-- tabs-section -->
+  <section class="tabs-section">
+    <div class="container">
+      <!-- tabs-section__butons -->
+      <div class="tabs-section__buttons">
+        <button class="tabs-section__button">Tab 1</button>
+        <button class="tabs-section__button">Tab 2</button>
+        <button class="tabs-section__button">Tab 3</button>
+      </div>
+      <!-- tabs-section__butons end-->
+      <!-- tabs-section__text -->
+      <div class="tabs-section__text">
+        <div class="tabs-section__text--title">Tabs with soft transitioning effect.</div>
+        <p class="tabs-section__text--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          euismod
+          bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+          justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+          penatibus et magnis dis parturient montes.
+          <br><br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+          bibendum laoreet.</p>
+        <button class="tabs-section__text--button">Download</button>
+      </div>
+      <!-- tabs-section__text end -->
+      <!-- tabs-section__picture -->
+      <div class="tabs-section__picture"></div>
+      <!-- tabs-section__picture -->
+    </div>
+  </section>
+  <!-- tabs-section end-->
+
+  <!-- awesome -->
+  <main class="awesome">
+    <div class="container">
+      <div class="awesome__center">
+        <h2 class="awesome__center--title">Why this is awesome</h2>
+        <div class="awesome__center--line"></div>
+        <span class="awesome__center--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+      </div>
+      <section class="awesome__section">
+        <div class="awesome__section--elips awesome__section--bulb"></div>
+        <h3 class="awesome__section--title">Thoughtful Design</h3>
+        <p class="awesome__section--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Aenean euismod bibendum laoreet. Proin gravida
+          dolor sit amet lacus accumsan et viverra.</p>
+      </section>
+      <section class="awesome__section">
+        <div class="awesome__section--elips awesome__section--keyboard"></div>
+        <h3 class="awesome__section--title">Well Crafted</h3>
+        <p class="awesome__section--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Aenean euismod bibendum laoreet. Proin gravida
+          dolor sit amet lacus accumsan et viverra.</p>
+      </section>
+      <section class="awesome__section">
+        <div class="awesome__section--elips awesome__section--volt"></div>
+        <h3 class="awesome__section--title">Easy to Customize</h3>
+        <p class="awesome__section--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Aenean euismod bibendum laoreet. Proin gravida
+          dolor sit amet lacus accumsan et viverra.</p>
+      </section>
+    </div>
+  </main>
+  <!-- awesome end-->
+
+  <!-- pricing -->
+  <main class="pricing">
+    <div class="container">
+      <!-- pricing text -->
+      <div class="pricing__center">
+        <h2 class="pricing__center--title">Pricing options</h2>
+        <div class="pricing__center--line"></div>
+        <p class="pricing__center--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <!-- pricing text end-->
+      <!-- pricing list -->
+      <section class="pricing__section">
+        <div class="pricing__title">
+          <h3 class="pricing__title--heading">Basic</h3>
+          <p class="pricing__title--value">$<span>0</span></p>
+          <p class="pricing__title--payment">Free for Life</p>
+          <p class="pricing__title--popular">Our most popular</p>
+        </div>
+        <ul class="pricing__section--list">
+          <li class="pricing__section--item">1 gb of space</li>
+          <li class="pricing__section--item">10 gb of bandwidth</li>
+          <li class="pricing__section--item">3 websites</li>
+          <li class="pricing__section--item">basic customization</li>
+          <li class="pricing__section--item">wordpress integration</li>
+          <li class="pricing__section--item">email support</li>
+        </ul>
+      </section>
+      <section class="pricing__section">
+        <div class="pricing__title">
+          <h3 class="pricing__title--heading">Professional</h3>
+          <p class="pricing__title--value">$<span>19</span></p>
+          <p class="pricing__title--payment">Monthly Payment</p>
+          <p class="pricing__title--popular">Our most popular</p>
+        </div>
+        <ul class="pricing__section--list">
+          <li class="pricing__section--item">5 gb of space</li>
+          <li class="pricing__section--item">50 gb of bandwidth</li>
+          <li class="pricing__section--item">12 websites</li>
+          <li class="pricing__section--item">advanced customization</li>
+          <li class="pricing__section--item">wordpress integration</li>
+          <li class="pricing__section--item">email support</li>
+        </ul>
+      </section>
+      <section class="pricing__section">
+        <div class="pricing__title">
+          <h3 class="pricing__title--heading">Enterprise</h3>
+          <p class="pricing__title--value">$<span>70</span></p>
+          <p class="pricing__title--payment">Monthly Payment</p>
+          <p class="pricing__title--popular">Our most popular</p>
+        </div>
+        <ul class="pricing__section--list">
+          <li class="pricing__section--item">unlimited space</li>
+          <li class="pricing__section--item">unlimited bandwidth</li>
+          <li class="pricing__section--item">100 websites</li>
+          <li class="pricing__section--item">advanced customization</li>
+          <li class="pricing__section--item">wordpress integration</li>
+          <li class="pricing__section--item">24/7 custumer support</li>
+        </ul>
+      </section>
+      <!-- pricing list end-->
+    </div>
+  </main>
+  <!-- pricing end-->
+
+  <!-- customers-section -->
+  <section class="customers">
+    <div class="container">
+      <!-- custumers__text -->
+      <div class="customers__center">
+        <h2 class="customers__center--title">What our customers are saying</h2>
+        <div class="customers__center--line"></div>
+        <span class="customers__center--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+      </div>
+      <!-- custumers__text end-->
+      <!-- customs -->
+      <div class="customs">
+        <div class="customs__speach">
+          <p class="customs__speach--text">Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Doloribus
+            accusamus expedita repellat similique
+            odio aspernatur ex, architecto eaque
+            quo suscipit.</p>
+          <div class="customs__avater">
+            <div class="customs__avater--logo"></div>
+            <div class="customs__content">
+              <h3 class="customs__content--title">Jeremy H.</h3>
+              <span class="customs__content--text">Manager</span>
+            </div>
+          </div>
+        </div>
+        <div class="customs__speach">
+          <p class="customs__speach--text">Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Doloribus
+            accusamus expedita repellat similique
+            odio aspernatur ex, architecto eaque
+            quo suscipit.</p>
+          <div class="customs__avater">
+            <div class="customs__avater--logo"></div>
+            <div class="customs__content">
+              <h3 class="customs__content--title">John S.</h3>
+              <span class="customs__content--text">Freelancer</span>
+            </div>
+          </div>
+        </div>
+        <div class="customs__speach">
+          <p class="customs__speach--text">Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Doloribus
+            accusamus expedita repellat similique
+            odio aspernatur ex, architecto eaque
+            quo suscipit.</p>
+          <div class="customs__avater">
+            <div class="customs__avater--logo"></div>
+            <div class="customs__content">
+              <h3 class="customs__content--title">Susan W.</h3>
+              <span class="customs__content--text">Photographer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- customs end-->
+  <!-- customers-section -->
+
+  <!-- city -->
+  <section class="city">
+    <div class="container">
+      <div class="city__content">
+        <h2 class="city__content--title">Stylish axure design</h2>
+        <div class="city__content--line"></div>
+        <p class="city__content--paragraph">Use the sections you need, remove the ones you don't. Create gorgeous
+          prototypes
+          faster than ever!</p>
+        <a class="city__content--link" href="#">Download</a>
+      </div>
+    </div>
+  </section>
+  <!-- city end-->
+
+  <!-- form -->
+  <section class="form">
+    <div class="container">
+      <!-- form text -->
+      <div class="form__text">
+        <h2 class="form__text--title">Stylish axure design</h2>
+        <div class="form__text--line"></div>
+        <p class="form__text--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <!-- form text -->
+
+      <!-- registration -->
+      <div class="registration">
+        <form action="action_page.php" class="registration__form">
+          <div class="registration__form-block">
+            <label for="name"></label>
+            <input class="registration__form-block--input" type="text" placeholder="Name" name="name" required>
+            <label for="email"></label>
+            <input class="registration__form-block--input" type="text" placeholder="Email" name="email" required <label
+              for="psw">
+            <input class="registration__form-block--input" type="password" placeholder="Subject" name="psw" required>
+          </div>
+          <div class="registration__form-block">
+            <label for="message"></label>
+            <textarea class="registration__form-block--area" name="message" cols="30" rows="10"
+              placeholder="Message"></textarea>
+          </div>
+          <button class="registration__form--button">Send Message</button>
+        </form>
+      </div>
+  </section>
+  <!-- form end-->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__links">
+        <a class="footer__links--item footer-facebook" href="https://www.facebook.com/" target="_blank"></a>
+        <a class="footer__links--item footer-twitter" href="https://www.twitter.com/" target="_blank"></a>
+        <a class="footer__links--item footer-google" href="https://www.idontexistanymore.com/" target="_blank"></a>
+        <a class="footer__links--item footer-pinterest" href="https://www.pinterest.com/" target="_blank"></a>
+        <a class="footer__links--item footer-instagram" href="https://www.instagram.com/" target="_blank"></a>
+        <a class="footer__links--item footer-stumbleupon" href="https://www.stumbleupon.com/" target="_blank"></a>
+        <a class="footer__links--item footer-rss" href="https://rss.com/" target="_blank"></a>
+      </div>
+      <span class="footer__text">&#169; 2015 Axure Themes</span>
+    </div>
+  </footer>
 </body>
 
 </html>
