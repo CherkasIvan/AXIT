@@ -78,7 +78,7 @@ ul li a {
 .header {
   height: 782px;
   background: url('../img/bg_image.png') center no-repeat;
-  
+
   background-size: cover;
 }
 
@@ -513,15 +513,16 @@ a.rss {
   border-bottom: 1px solid #ffffff;
 }
 
-.pricing__title--value span{
-  font-size: 90px;;
+.pricing__title--value span {
+  font-size: 90px;
+  ;
 }
 
 .pricing__title--payment {
   padding: 10px;
   font-style: italic;
   font-size: 14px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway','TimesNewRoman', sans-serif;
   color: #ffffff;
   background-color: #333333;
 }
@@ -669,7 +670,7 @@ a.rss {
   font-weight: normal;
   font-size: 36px;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'TimesNewRoman', sans-serif;
   color: #ffffff;
 }
 
@@ -684,7 +685,7 @@ a.rss {
 .city__content--paragraph {
   margin-bottom: 48px;
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'TimesNewRoman', sans-serif;
   color: #ffffff;
   opacity: 0.8;
 }
@@ -713,7 +714,7 @@ a.rss {
   padding-bottom: 30px;
   text-transform: uppercase;
   font-size: 36px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'TimesNewRoman', sans-serif;
   color: #212121;
 }
 
@@ -726,7 +727,7 @@ a.rss {
 
 .form__text--paragraph {
   font-size: 14px;
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'OpenSans', 'TimesNewRoman', sans-serif;
   color: #86878B;
 }
 
@@ -766,7 +767,7 @@ a.rss {
   padding-left: 13px;
   font-size: 13.7px;
   color: #86878B;
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'OpenSans', 'TimesNewRoman', sans-serif;
   border-bottom: 1px solid #86878B;
 }
 
@@ -777,7 +778,7 @@ a.rss {
   margin-bottom: 95px;
   padding: 15px 22px;
   font-size: 15px;
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'OpenSans', 'TimesNewRoman', sans-serif;
   color: #ffffff;
   background-color: #FF8B38;
   border-radius: 5px;
@@ -843,7 +844,7 @@ a.footer-rss {
 
 .footer__text {
   font-size: 9px;
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'OpenSans', 'TimesNewRoman', sans-serif;
   color: #ffffff;
   opacity: 0.5;
 }
